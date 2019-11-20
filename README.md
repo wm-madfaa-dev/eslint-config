@@ -1,4 +1,4 @@
-# @wm.madfaa/eslint-config
+# @wm-madfaa-dev/eslint-config
 
 It lints your typescript projects with ease, based on the popular code style
 
@@ -17,26 +17,26 @@ well.
 Install the package with
 
 ```sh
-npm install @wm.madfaa/eslint-config --save-dev
+npm install @wm-madfaa-dev/eslint-config --save-dev
 
 # or
-yarn add @wm.madfaa/eslint-config -D
+yarn add @wm-madfaa-dev/eslint-config -D
 ```
 
 Then install the correct versions of each peerDependency package, which are
 listed by the command:
 
 ```sh
-npm info "@wm.madfaa/eslint-config@latest" peerDependencies
+npm info "@wm-madfaa-dev/eslint-config@latest" peerDependencies
 ```
 
 If using npm 5+, use this shortcut:
 
 ```sh
-npx install-peerdeps --dev @wm.madfaa/eslint-config
+npx install-peerdeps --dev @wm-madfaa-dev/eslint-config
 
 # or
-yarn add @wm.madfaa/eslint-config -D --peer
+yarn add @wm-madfaa-dev/eslint-config -D --peer
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ Now add the config to either your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "@wm.madfaa/eslint-config"
+    "extends": "@wm-madfaa-dev/eslint-config"
   }
 }
 ```
@@ -55,7 +55,7 @@ to your `.eslintrc`:
 
 ```json
 {
-  "extends": "@wm.madfaa/eslint-config"
+  "extends": "@wm-madfaa-dev/eslint-config"
 }
 ```
 
@@ -63,6 +63,6 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: '@wm.madfaa/eslint-config',
+  extends: '@wm-madfaa-dev/eslint-config',
 }
 ```
