@@ -1,6 +1,6 @@
 {
   "name": "@wm-madfaa-dev/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslint config ready to be used in multiple projects",
   "author": "wasim almadfaa",
   "private": true,
