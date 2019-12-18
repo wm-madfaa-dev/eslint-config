@@ -30,7 +30,7 @@
     "eslint-plugin-react-hooks": ">=2.2.0 <3",
     "prettier": ">=1.18.2 <2"
   },
-  "devDependencies": {
+  "dependencies": {
     "@react-native-community/eslint-config": "^0.0.5",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
