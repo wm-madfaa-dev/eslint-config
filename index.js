@@ -1,6 +1,12 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['prettier', 'prettier/react', 'prettier/@typescript-eslint', '@react-native-community','plugin:prettier/recommended'],
+  extends: [
+    'prettier',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+    '@react-native-community',
+    'plugin:prettier/recommended',
+  ],
   plugins: ['jest', 'react-hooks'],
   env: {
     browser: true,
@@ -32,7 +38,6 @@ module.exports = {
         withinDescribe: 'it',
       },
     ],
-    'jest/expect-expect': 'error',
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'warn',
     'jest/no-identical-title': 'error',
@@ -43,18 +48,6 @@ module.exports = {
     'jest/prefer-to-be-undefined': 'error',
     'jest/prefer-to-have-length': 'error',
     'jest/valid-expect': 'error',
-
-    'prettier/prettier': [
-      'error',
-      {
-        bracketSpacing: true,
-        semi: true,
-        trailingComma: 'all',
-        singleQuote: true,
-        printWidth: 120,
-        tabWidth: 2,
-      },
-    ],
 
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
